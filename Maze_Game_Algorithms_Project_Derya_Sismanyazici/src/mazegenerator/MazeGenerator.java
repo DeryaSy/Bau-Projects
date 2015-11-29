@@ -1,6 +1,6 @@
 package mazegenerator;
 
-//Derya Sismanyazici
+//created by Derya Sismanyazici for CMP3005 Analysis of Algorithms Programming Project in 2014
 
 import java.awt.BorderLayout;
 import java.awt.event.ActionEvent;

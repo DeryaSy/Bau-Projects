@@ -1,6 +1,6 @@
 package mazegenerator;
 
-//Deya Sismanyazici
+//created by Derya Sismanyazici for CMP3005 Analysis of Algorithms Programming Project in 2014
 
 import java.awt.Color;
 import java.awt.Graphics;
@@ -40,7 +40,7 @@ public class MazePanel extends JPanel {
 								// initially
 		Random rand = new Random();// random number generator, which is
 									// necessary while generating and solving
-									// maze, e.g., select a neigbor randomly
+									// maze, e.g., select a neighbor randomly
 		int n_col = getNumCols();
 		int n_row = getNumRows();
 		visited = new boolean[n_row][n_col];// Default is false
@@ -96,7 +96,7 @@ public class MazePanel extends JPanel {
 
 	private void draw() {// animates by invoking paint method and sleeping
 		try {
-			repaint();// trigger the paint method which is overriden
+			repaint();// trigger the paint method which is overridden
 			Thread.sleep(SLEEP);
 		} catch (Exception e) {
 		}
